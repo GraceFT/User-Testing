@@ -1,0 +1,122 @@
+*{
+    outline: 1px solid rgba(0,255,0,0.3);
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/*-------------------------HEADER----------------------------------------*/
+header{
+    background: #000 url(../image/large.jpg);
+    opacity: 0.9;
+    background-size: cover;
+}
+.list-menu{
+    list-style: none;
+    float: right;
+}
+.list-menu li{
+    display: inline-block;
+      margin: 10px; 
+}
+.list-menu li a{
+    display: block;
+    padding: 10px;
+    color: #fff;
+}
+/*-------------------------SECTION-HERO------------------------------------*/
+.etkt{
+    height: 450px;
+    display: table;
+    width: 100%;
+    margin: auto;
+    padding: 0;
+}
+.text{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center
+}
+.text h1{
+    margin: 0 25%;
+    color: #fff;
+}
+       /*--------------------CELESTE----------------*/
+.advice{
+    background: rgba(116,163,219,0.3);
+    height: 190%;
+    
+}
+.free, .but{
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+}
+.free {
+    margin: 5% 0% 5% 35%;
+}
+.free p{
+    font-size: 17px;
+}
+.but{
+    margin:  12% 0;
+}
+.but a{
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+/*-------------------------SECTION-2----------------------------------------*/
+.section-2 h2{
+    color: #77afff;
+    font-weight: 100;
+    text-align: center;
+}
+.bloques{
+    padding: 7% 7%;
+    text-align: center;
+}
+
+.block3 h3, .block2 h3{
+    padding: 0 18%;
+    color: #6a88a4;
+}
+.block1 h3{
+    padding: 0 30%;
+    color: #6a88a4;
+}
+/*-------------------------SECTION-3----------------------------------------*/
+.section-3{
+    text-align: center;
+    padding: 3%;
+}
+/*-------------------------SECTION-4----------------------------------------*/
+.section-4 h2{
+    color: #77afff;
+    text-align: center;
+    margin: 5% 0;
+}
+.section-4 .user{
+    width: 50%;
+}
+.arrow{
+    margin: 0 45%;
+}
+/*-------------------------SECTION-5----------------------------------------*/
+.pass {
+    background: url(../image/sec-2.jpg);
+    height: 500px;
+    background-size: cover;
+}
+.pasos{
+    margin-left: 5%;
+}
+.pasos h3{
+   color: #77afff;  
+}
+/*-------------------------SECTION-6----------------------------------------*/
+/*-------------------------SECTION-7----------------------------------------*/
+/*-------------------------FOOTER----------------------------------------*/
