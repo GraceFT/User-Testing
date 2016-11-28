@@ -3,12 +3,15 @@
 <head>
 	  	<meta charset="utf-8">
 	  	<title>User Testing 360°</title>
+	  	<meta name="viewport" content="width=device-width, initial-scale=1">
 	  	<link rel="stylesheet" href="css/bootstrap.min.css">
 	  	<link rel="stylesheet" href="css/animate.css">
 	  	<link rel="stylesheet" href="css/font-awesome.min.css">
 	  	<link rel="stylesheet" href="css/icomoon.css">
 	  	<link rel="stylesheet" href="css/main.css">
 	  	<link rel="stylesheet" href="css/queries.css">
+	  	<link rel="shortcut icon" href="favicon.ico">
+	  	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 
 <body>
@@ -16,11 +19,11 @@
 <header>
     <div class="container">
         <div class="row">
-            <div class="col-md-4">
-                <img src="image/user-r.png" alt="header-logo" class="logo">
+            <div class="col-md-3">
+                <img src="image/user-r.png" alt="header-logo" class="img-responsive">
             </div>
-            <div class="col-md-8">
-                <ul class="list-menu">
+            <div class="col-md-9">
+                <ul class="list-inline">
                     <li><a href="#">¿Qué me Ofrece?</a></li>
                     <li><a href="#">¿Cómo funciona?</a></li>
                     <li><a href="#">¿Por qué usarlo?</a></li>
@@ -36,44 +39,47 @@
           </div>
         </div>
     </div> 
-        <section class="advice">
-           <div class="row">
-              <div class="col-md-2"></div>
-               <div class="col-md-4">
+        
+    <div class="header-banner">
+        <div class="container">
+            <div class="row">
+               <div class="col-md-4 col-md-offset-3">
                     <div class="free">
                             <h2>PRUEBA GRATUITA</h2>
                             <p>Obtén un video gratis de 5 minutos</p>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="but">
-                        <a href="#">Pruebalo gratis</a>
-                    </div>
+                    <button class="btn btn-info btn-lg" type="submit">
+                        Pruebalo gratis
+                    </button>
                 </div>
-                <div class="col-md-2"></div>
             </div>
-        </section>
-    
+        </div>
+    </div>
 </header>
 <!-------------------------SECTION-2---------------------------------------->
 <section class="section-2">
     <div class="container">
+       <h2 class="text-center">Nuestros servicios</h2>
         <div class="row bloques">
-           <h2>Nuestros servicios</h2>
                 <div class="col-md-4">
-                   <div class="block1">
-                    <h3>Pruebalo Gratis</h3>
+                   <div class="block">
+                       <div class="icon-container"><i class="icon-video"></i></div>
+                    <h3>Pruebalo <br>Gratis</h3>
                     <p>Obtén un primer video screencast de un usuario navegando en tu página.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
-                   <div class="block2">
+                   <div class="block">
+                   <div class="icon-container"><i class="icon-clock"></i></div>
                     <h3>Compra el servicio completo</h3>
-                    <p>Si te gusto compra nuestro servicio completo que incluye 7 videos y feedback.</p>
+                    <p>Si te gusto; compra nuestro servicio completo que incluye 7 videos y feedback.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
-                   <div class="block3">
+                   <div class="block">
+                       <div class="icon-container"><i class="icon-documents"></i></div>
                     <h3>Obtén el resultado en 1 día</h3>
                     <p>Te haremos llegar los videos y el feedback completo el mismo día.</p>
                 </div>
@@ -95,7 +101,7 @@
         <div class="row">
           <div class="col-md-6">
               <div class="ejemplo">
-                   <h2>Ejemplo de <img src="image/logo-2.jpg" alt="" class="user"></h2>
+                   <h2 class="text-center">Ejemplo de <img src="image/logo-2.jpg" alt="" class="user"></h2>
                    <p>En este video te damos un ejemplo de un integrante de nuestro panel evaluando la experiencia de usa de </p>
                    <p><a href="#">mimediamanzana.com</a></p>
                    <p>El objetivo de User Testing 360 es identificar situaciones confusas de los usuarios en su web y descubrir soluciones, que garanticen una experiencia satisfactoria.</p>
@@ -103,7 +109,10 @@
                </div>
            </div>
                <div class="col-md-6">
-                   <iframe width="560" height="315" src="https://www.youtube.com/embed/u7MDfG9ZJTU" frameborder="0" allowfullscreen></iframe>
+                   <div class="embed-responsive embed-responsive-16by9">
+                     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/u7MDfG9ZJTU" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                   
                </div>
         </div>
     </div>
@@ -112,19 +121,19 @@
 <section class="section-5">
     <div class="container">
         <div class="row">
-              <div class="col-md-6">
-              <div class="pass"></div>
-               </div>
-               
+            <div class="col-md-6">
+                <div class="pass"></div>
+            </div>
             <div class="col-md-6">
                 <div class="pasos">
                   <h2>Lo quiero ¿Qué hago? </h2>
                    <div class="pasos1">
-                       <div><i></i><h3>Paso 1: Envianos tu link</h3>
+                        <div class="icon-cn"><i class="fa icon-pencil"></i></div>
+                        <div class="pa1"><h3>Paso 1: Envianos tu link</h3>
                            <p>Al darle click al botón de prueba. Coloca tu nombre y tu correo electronico a donde enviaremos el video y el informe con el feedback.</p>
                        </div>
-                       
-                        <div><i></i><h3>Paso 2: Describe a tu publico objetivo</h3>
+                        <div class="icon-cn"><i class="fa icon-tools-2"></i></div>
+                        <div class="pa2"><i></i><h3>Paso 2: Describe a tu publico objetivo</h3>
                            <p>Describe las acciones que que quieres que evaluemos por ejemplo:</p>
                            <ul>
                                <li>Aprimera vista ¿De que crees que trata la página?</li>
@@ -133,24 +142,26 @@
                            </ul>
                            <p>Preguntas como las que te mostramos</p>
                        </div>
-                       
-                        <div><i></i><h3>Paso 3: Recibe un video y el feedback completo</h3>
+                       <div class="icon-cn"><i class="fa icon-magnifying-glass"></i></div>
+                        <div class="pa3"><i></i><h3>Paso 3: Recibe un video y el feedback completo</h3>
                            <p>Recibe un combo de 7 videos y un informe detallado con las capacitaciones de usabilidad de tu producto.</p>
                        </div> 
                     </div>
                 </div>
             </div>
-            <img src="image/separador.png" alt="">
+        </div>
+        <div class="row">
+           <img src="image/separador.png" alt="">
         </div>
     </div>
 </section>
 <!-------------------------SECTION-6---------------------------------------->
-<section>
+<section class="section-6">
     <div class="container">
         <div class="row">
           <div class="col-md-6">
               <div class="using">
-                   <h2>Por qué usar </h2><img src="image/logo-2.jpg" alt="">
+                   <h2>Por qué usar <img src="image/logo-2.jpg" alt=""></h2>
                    <p>En la era en la que nos encontramos, la web se ha convertido en el mejor sitio para llegar a millones de personas en segundos, pero ¿que pasa si el producto digital que ofreces no es bueno o no se entiende? Pierdes esta enorme oportunidad. Con <a href="#">User Testing 360</a>, puedes entender la experiencia de uso de tu pagina o producto digital y mejorarla para que satisfaga todas las necesidades de tus usuarios. Con <a href="#">User Testing 360</a> puedes entender:</p>
                    <ul>
                        <li>¿Como tu publico objetivo us tu producto?</li>
@@ -161,24 +172,24 @@
                 </div>
            </div>
             <div class="col-md-6">
-                   <img src="image/banner.jpg" alt="">
+                   <img src="image/banner.jpg" alt="" class="using2">
             </div>
         </div>
     </div>
 </section>
 <!-------------------------SECTION-7---------------------------------------->
-<section>
+<section class="section-7">
     <div class="container">
         <div class="row">
-            <div class="col-md-4"></div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-md-offset-2">
+                   <div class="v">
                     <h2>PRUEBA GRATUITA</h2>
                     <p>Obtén un video gratis de 5 minutos</p>
+                    </div>
                 </div>
-            <div class="col-md-4">
-                <button><a href="#">Pruebalo gratis</a></button>
+            <div class="col-md-4 col-md-offset-2">
+                <button class="btn btn-info btn-lg">Pruebalo gratis</button>
             </div>
-            <div class="col-md-4"></div>
         </div> 
     </div>
 </section>
@@ -187,16 +198,24 @@
    <div class="container">
         <div class="row">
             <div class="col-md-6">
-                    <p>Escríbenos a:</p>
-                    <p>experienciadeusuario.lab@gmail.com</p>
-                    <p>Telef:989637925</p>
+                   <div class="datos">
+                       <p>Escríbenos a:</p> 
+                       <p><a href="">experienciadeusuario.lab@gmail.com</a></p>
+                    <p>Telef: 989637925</p>
+                    </div>
             </div>
             <div class="col-md-6">
                 <div class="social">
-                    <div></div>
-                    <div></div>
+                    <div class="icon-social">
+                        <div class="icon-s">
+                            <i class="icon-facebook"></i>
+                        </div>
+                        <div class="icon-s">
+                            <i class="icon-twitter"></i>
+                        </div>
+                    </div>
+                    <p>Copyright&copy; 2015 - User Testing 360</p>
                 </div>
-                <p>Copyright&copy; 2015 - User Testing 360</p>
             </div>
         </div> 
     </div> 
